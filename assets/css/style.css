@@ -2,3 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
+
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+    background-image: url("../css/images/background1.png");
+    background-color: orange;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
